@@ -4,7 +4,7 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/9.10.0/firebase
 
 const firebaseConfig = {
   apiKey: process.env.apiKey,
-  authDomain: process.envauthDomain,
+  authDomain: process.env.authDomain,
   projectId: process.env.projectId,
   storageBucket: process.env.storageBucket,
   messagingSenderId: process.env.messagingSenderId,
