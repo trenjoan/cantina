@@ -7,4 +7,4 @@ if(req.url == "/init"){readFile('/src/init.html', (err , data)=>{
     res.setHeader('Content-Type', 'text/html; charset=utf-8')
     res.statusCode(200)
     res.end(data)
-}})}else(req.url){res.statusCode(200)})
+}})}else(req.url){res.statusCode(404)})
